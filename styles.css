@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Open+Sans:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+
+    font-family: 'Open sans';
+}
+
+header{
+    background-color:#f2f2f2;
+    text-align: center;
+    padding:25px 0px;
+}
+
+nav a {
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+    color:#696969;
+    margin: 0 30px;
+    padding: 5px 15px ;
+}
+
+nav a:hover{
+    background-color: #000;
+    color:#fff;
+}
+
+.encabezado-img{
+    background-image: url(snow2.jpg);
+    background-size: cover;
+    height:533px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+
+}
+
+.encabezado-img p{
+    font-size: 20px;
+}
+
+.encabezado-img h1{
+
+font: size 50px;
+padding: 20px 0px ;
+}
